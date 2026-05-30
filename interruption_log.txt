@@ -1,0 +1,3 @@
+with open ("interruption_log.txt","a")
+ as file: file.write(f"interruption detected at 
+    {time.ctime()}\n")
